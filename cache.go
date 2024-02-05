@@ -6,6 +6,11 @@ type Cache struct {
 	store store.Store
 }
 
+// TODO
+/**type MultiCache struct {
+	stores map[string]Cache
+}**/
+
 func New(store store.Store) *Cache {
 	return &Cache{
 		store: store,
