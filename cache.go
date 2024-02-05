@@ -111,3 +111,8 @@ func (c *Cache) Forget(key string) {
 func (c *Cache) Flush() {
 	c.store.Flush()
 }
+
+// Close closes the cache. Call this during application shutdown
+func (c *Cache) Close() {
+	c.store.Close()
+}

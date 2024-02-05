@@ -45,3 +45,7 @@ func (m *MemoryStore) Remove(key string) {
 func (m *MemoryStore) Flush() {
 	m.store.Clear()
 }
+
+func (m *MemoryStore) Close() {
+	m.store.Close()
+}

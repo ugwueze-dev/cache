@@ -6,4 +6,5 @@ type Store interface {
 	Get(key string) any
 	Remove(key string)
 	Flush()
+	Close()
 }
