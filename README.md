@@ -9,8 +9,8 @@ Here are features of the library:
 * [x] Multiple cache stores including memory, redis, or your own custom store.
 * [x] Cache invalidation by expiration time.
 * [x] Define default values in stores and override them when setting data.
-* [] Using one or more stores at the same time.
-* [] Use of Generics.
+* [-] Using one or more stores at the same time.
+* [-] Use of Generics.
 
 ## Stores
 ### Memory Store
